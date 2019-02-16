@@ -1,0 +1,32 @@
+{
+  "name": "slack-template",
+  "version": "0.1.0",
+  "homepage": "https://yesod.co",
+  "bugs": "https://github.com/yesodco/slack-template/issues",
+  "scripts": {
+    "serve": "node fuse serve",
+    "build": "node fuse build"
+  },
+  "license": "Apache-2.0",
+  "author": "YESOD Inc.",
+  "dependencies": {
+    "@slack/client": "^4.9.0",
+    "@slack/interactive-messages": "^1.0.2",
+    "dotenv": "^6.2.0",
+    "i18next": "^15.0.4",
+    "moment": "^2.24.0",
+    "source-map-support": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/express": "^4.16.1",
+    "@types/i18next": "^12.1.0",
+    "@types/moment": "^2.13.0",
+    "@types/source-map-support": "^0.4.2",
+    "fuse-box": "^3.7.1",
+    "fuse-box-yaml": "^1.0.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3",
+    "uglify-es": "^3.3.9"
+  }
+}

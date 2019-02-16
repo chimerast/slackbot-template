@@ -1,0 +1,10 @@
+version: '3'
+services:
+  slack:
+    build: .
+    image: ${DOCKER_IMAGE}
+    ports:
+      - "3000:80"
+    env_file: .env
+    healthcheck:
+      test: curl -f http://localhost/ || exit 1

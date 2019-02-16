@@ -1,0 +1,11 @@
+.env
+.fusebox/
+dist/
+node_modules/
+
+.git
+.gitignore
+
+.dockerignore
+Dockerfile
+docker-compse.yml
